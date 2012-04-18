@@ -1,0 +1,22 @@
+{
+  "capabilities":
+    [
+    {
+      "browserName": "internet explorer",
+      "maxInstances": 1,
+      "platform":"WINDOWS",
+      "version":"8",
+    },
+  ],
+  "configuration":
+  {
+    "nodeTimeout":120,
+    "nodePolling":2000,
+
+    "registerCycle":10000,
+    "register":true,
+    "cleanUpCycle":5000,
+    "timeout":10000,
+    "maxSession":2,
+  }
+}
