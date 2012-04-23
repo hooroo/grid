@@ -5,7 +5,7 @@
       "browserName": "internet explorer",
       "maxInstances": 1,
       "platform":"WINDOWS",
-      "version":"8",
+      "version":"7",
     },
   ],
   "configuration":
