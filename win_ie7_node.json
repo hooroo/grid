@@ -12,8 +12,8 @@
   {
     "registerCycle":60000,
     "register":true,
-    "cleanUpCycle":5000,
-    "timeout":30000,
+    "cleanUpCycle":10000,
+    "timeout":120000,
     "maxSession":1,
   }
 }
