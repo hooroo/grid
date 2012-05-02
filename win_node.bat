@@ -1,6 +1,6 @@
 @echo off
 cd c:\grid
-SET SERVER=http://grid.local:4444/grid/register
+SET SERVER=http://192.168.0.10:4444/grid/register
 SET NODE=win_ie8
 
 echo %PATH%
