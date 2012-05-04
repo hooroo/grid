@@ -1,15 +1,15 @@
 {
   "host": null,
   "port": 4444,
-  "newSessionWaitTimeout": -1,
+  "newSessionWaitTimeout": 120000,
   "servlets" : [],
   "prioritizer": null,
   "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
   "throwOnCapabilityNotPresent": true,
   "nodePolling": 10000,
-
+  "unregisterIfStillDownAfter":120000,
   "cleanUpCycle": 10000,
-  "browserTimeout": 240000,
-  "timeout": 300000,
+  "browserTimeout": -1,
+  "timeout": 0,
   "maxSession": 5
 }

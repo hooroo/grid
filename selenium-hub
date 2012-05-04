@@ -1,0 +1,19 @@
+#!/bin/bash
+
+export SELENIUM_INSTALL=/usr/local/lib/selenium
+
+case "$1" in
+  start)
+        echo -e "\nStarting Selenium Hub\n"
+        nohup java -jar $SELENIUM_INSTALL/selenium-server-standalone-2.*.jar -role hub -hubConfig $SELENIUM_INSTALL/hub.json > /var/log/selenium-hub.log &
+        ;;
+  stop)
+        echo -e "\nStopping Selenium Hub\n"
+        kill `ps -ef | grep "java -jar $SELENIUM_INSTALL/selenium-server-standalone-2.*.jar -role hub" | grep -v grep | awk '{ print $2 }'`
+        ;;
+  *)
+        echo "Usage: selenium-hub {start|stop}"
+        exit 1
+esac
+
+exit 0

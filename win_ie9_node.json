@@ -9,7 +9,6 @@
     },
   ],
   "configuration":
-  "configuration":
   {
     "registerCycle":60000,
     "register":true,
