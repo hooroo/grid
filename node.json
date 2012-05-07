@@ -1,0 +1,10 @@
+{
+  "configuration":
+  {
+    "registerCycle":60000,
+    "register":true,
+    "cleanUpCycle":10000,
+    "timeout":60000,
+    "maxSession":1,
+  }
+}
